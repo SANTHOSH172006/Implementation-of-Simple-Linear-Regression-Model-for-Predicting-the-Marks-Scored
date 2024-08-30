@@ -8,14 +8,14 @@ To write a program to predict the marks scored by a student using the simple lin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Import the standard Libraries.
-2.Set variables for assigning dataset values.
-3.Import linear regression from sklearn.
-4.Assign the points for representing in the graph.
-5.Predict the regression for marks by using the representation of the graph.
-6.Compare the graphs and hence we obtained the linear regression for the given datas.
+#### 1.Import the standard Libraries. 
+#### 2.Set variables for assigning dataset values. 
+#### 3.Import linear regression from sklearn. 
+#### 4.Assign the points for representing in the graph. 
+#### 5.Predict the regression for marks by using the representation of the graph. 
+#### 6.Compare the graphs and hence we obtained the linear regression for the given datas.
 ## Program:
-```
+```py
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
 Developed by: SANTHOSH D
@@ -64,41 +64,31 @@ print('MAE = ',mae)
 rmse=np.sqrt(mse)
 print("RMSE= ",rmse)
 ```
-
 ## Output:
+### Dataset
+![Screenshot 2024-08-30 123756](https://github.com/user-attachments/assets/2835b5e4-77e3-4eba-92ef-fd30b7da4b8a)
 
-DATASET
-![image](https://github.com/user-attachments/assets/fc4137c7-6cba-452b-9d27-aba232586129)
+### Head Values
+![image](https://github.com/user-attachments/assets/23a7d686-86aa-4444-8443-423ff6d8fb83)
 
-HEAD VALUES
+### Tail Values
+![image](https://github.com/user-attachments/assets/8247ffaf-1261-4368-92e2-10a805dee7d2)
 
-![image](https://github.com/user-attachments/assets/ef42f8a5-799f-40f8-a894-a115d47f31a5)
-
-TRAIL VALUES
-
-![image](https://github.com/user-attachments/assets/f37a6c65-a731-47b0-ae11-e1ade28fa835)
-
-X AND Y VALUES
-
-![image](https://github.com/user-attachments/assets/a7ff385c-de92-4df5-9a91-735896a14b1f)
-
-PREDICATION VALUES OF X AND Y
-
-![image](https://github.com/user-attachments/assets/334cfcbb-00d9-41d4-9844-f37b9d43a2bb)
-
-MSE,MAE and RMSE
-
-![image](https://github.com/user-attachments/assets/716d9e8b-932c-42d8-8b4e-ebf2be0f1f54)
-
-TRAINING SET
-
-![image](https://github.com/user-attachments/assets/e0afd353-6a0b-4312-abe4-872749e81607)
-
-TESTING SET
-
-![image](https://github.com/user-attachments/assets/a040063e-376e-4412-a1eb-ce487d8b900d)
+### X and Y values
+![image](https://github.com/user-attachments/assets/d3266830-d2b6-4423-8420-bf4d111538e9)
 
 
+### Predication values of X and Y
+![image](https://github.com/user-attachments/assets/e98017bf-f708-486f-80f7-80ef7e300166)
+
+### MSE,MAE and RMSE
+![image](https://github.com/user-attachments/assets/3445c487-696f-417c-9d44-d32dcd727913)
+
+### Training Set
+![image](https://github.com/user-attachments/assets/bc5883a1-7136-43db-a1f0-53fd3fbc7e64)
+
+### Testing Set
+![image](https://github.com/user-attachments/assets/e73947f6-ed6e-4a51-8e5c-85eae472979d)
 
 ## Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
